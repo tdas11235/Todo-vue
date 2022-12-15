@@ -8,7 +8,7 @@
           <option value="completed">Completed</option>
           <option value="pending">Pending</option>
         </select>
-        <button type="submit">Add Filter</button>
+        <button type="submit">Apply Filter</button>
       </form>
     </div>
     <Card v-for="(todo, index) in array" :key="index">
